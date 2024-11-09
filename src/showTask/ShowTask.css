@@ -1,0 +1,30 @@
+.wrapper {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box{
+    width: 250px;
+    height: 200px;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(255, 255, 255, 0.4);
+}
+.task-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete-icon{
+    font-size: 30px;
+}
+
+@media (max-width:768px){
+    .box{
+        width: 90%;
+    }
+}
