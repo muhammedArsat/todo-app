@@ -26,12 +26,12 @@
 .search-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 10px;
 }
 
 .search-container input{
-    width: 60%;
+    width: 100%;
     outline: none;
     border: 1px solid #ccc;
     border-radius: 8px;
