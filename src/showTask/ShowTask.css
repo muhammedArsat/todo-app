@@ -23,8 +23,36 @@
     font-size: 30px;
 }
 
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.search-container input{
+    width: 60%;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+    
+}
+
+.btn-search{
+    padding: 10px 45px;
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color:  rgba(6, 134, 254, 0.828);
+    color: white;
+    font-size: 19px;
+   
+
+}
 @media (max-width:768px){
     .box{
         width: 90%;
     }
+
 }
